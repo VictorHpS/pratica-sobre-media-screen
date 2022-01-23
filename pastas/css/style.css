@@ -89,7 +89,8 @@ html{
 }
 
 .img{
-    max-width: 100%;
+    width: 100%;
+
 }
 
 .footer{
@@ -158,8 +159,7 @@ html{
     }
 
     .img{
-        max-width: 320;
-        margin: auto;
+        max-width: 100%;
     }
 
     .section__paragrafo{
@@ -192,7 +192,7 @@ html{
     }
 
     .img{
-        max-width: 550px;
+        max-width: 100%;
         margin: auto;
     }
 
