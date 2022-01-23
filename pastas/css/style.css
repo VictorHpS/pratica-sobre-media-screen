@@ -31,7 +31,7 @@ html{
 }
 
 .header{
-    max-width: 100;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -89,9 +89,7 @@ html{
 }
 
 .img{
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    max-width: 100%;
 }
 
 .footer{
@@ -160,8 +158,8 @@ html{
     }
 
     .img{
-        width: 100%;
-        padding: 10px;
+        max-width: 320;
+        margin: auto;
     }
 
     .section__paragrafo{
@@ -194,7 +192,8 @@ html{
     }
 
     .img{
-        width: 100%;
+        max-width: 550px;
+        margin: auto;
     }
 
     .section__subtitulo{
